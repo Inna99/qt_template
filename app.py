@@ -13,10 +13,3 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         QtWidgets.QMainWindow.__init__(self)
         Ui_MainWindow.__init__(self)
         self.setupUi(self)
-
-
-if __name__ == "__main__":
-
-    from __init__ import initate_application
-
-    initate_application()

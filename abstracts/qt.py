@@ -1,9 +1,8 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
-class BaseWindowWidget():
-    """Base Windows Class"""
-    pass
+class BaseWindowWidget(QtWidgets.QWidget):
+    """Base Window Class."""
 
 
 class MoveableWidget(BaseWindowWidget):
